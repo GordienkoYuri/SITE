@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+    <script type="text/javascript">
+        (function(){
+          if (typeof(window.orientation) !== 'undefined')
+          {
+            function getDeviceWidth()
+            {
+              var deviceWidth = window.orientation == 0 ? window.screen.width : window.screen.height;
+              if (navigator.userAgent.indexOf('Android') >= 0 && window.devicePixelRatio)
+                deviceWidth = deviceWidth / window.devicePixelRatio;
+      
+              return deviceWidth;
+            }
+      
+            var deviceWidth = getDeviceWidth();
+            var maxWidth = 2400 ;
+                
+            if (deviceWidth < maxWidth)
+            {
+              if (window.orientation == 0 || window.orientation == 180)
+                document.write('<meta name="viewport" content="width=device-width">');
+              else
+                document.write('<meta name="viewport" content="width=device-height">');
+            }
+            else
+              document.write('<meta name="viewport" content="width=' + maxWidth + '">');
+          }
+        })();
+    </script>        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Продать компьютер – скупка б/у компьютеров в Новосибирске дорого!</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="images/favicon/site.webmanifest">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="body" >
+        <header class="header">
+            <div class="wrapper">
+                <div class="header_wrapper">
+                    <div class="hrader_logo">
+                        <a href="#intro" class="header_logo-link js-scroll">
+                            <img src="svg/vCom servise.svg" alt="Скупка техники" class="header_logo-pic"></a>
+                    </div>
+                    <nav class="header_nav">
+                        <ul class="header_list">
+                            <li class="header_item">
+                                <a href="#pocupca" class="header_link js-scroll">Продать</a>
+                            </li>
+                            <li class="header_item" >
+                                <a href="#fixiki" class="header_link js-scroll">Ремонт</a>
+                            </li>
+                            <li class="header_item" >
+                                <a href="#map" class="header_link js-scroll">Контакты</a>
+                                <li class="header_item">
+                                    <a href='https://wa.me/79231581328?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D0%BC%D0%B5%D0%BD%D1%8F%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0%20%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B8!'class="header_number">
+                                        +7(923)-123-32-23
+                                    </a>
+                                </li>
+                            </li>
+                        </ul>
+                        <div class="header_nav_close">
+                            <span class="header_nav_close_line"></span>
+                            <span class="header_nav_close_line"></span>
+                        </div>
+                    </nav>
+                    <div class="header_burger burger">
+                        <span class="burger_line burger_line_first"></span>
+                        <span class="burger_line burger_line_second"></span>
+                        <span class="burger_line burger_line_third"></span>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="intro" id="intro">
+            <div class="wrapper ">
+                    <div class="intro_img ">
+                        <img src="svg/home.svg" alt="home" class="into_logo">
+                        <img src="svg/car.svg" alt="car" class="into_logo">
+                        <img src="svg/hands.svg" alt="hands" class="into_logo">
+                        <img src="svg/money.svg" alt="money" class="into_logo">
+                    </div>
+                    <h1 class="intro_title">
+                        Купим вашу технику в Новосибирске
+                    </h1>
+                    <p class="intro_subtitle">Скупка и утилизация - просто и быстро Компьютеры, ноутбуки и комплектующие в любом состоянии</p>
+                    <p class="button">
+                        <button onclick="window.location.href = 'https://wa.me/79231581328?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D0%BC%D0%B5%D0%BD%D1%8F%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0%20%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B8!';" type="submit"class="whpp">
+                            ПРОДАТЬ СЕЙЧАС
+                        </button>
+                        <button onclick="window.location.href = 'https://wa.me/79231581328?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D0%BC%D0%B5%D0%BD%D1%8F%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B8!';" type="submit"class="whpp">
+                            ХОЧУ РЕМОНТ
+                        </button>
+                    </p>
+            </div> 
+            </section>
+            <section class="BY" >
+                <div class="wrapper" id="pocupca">
+                    <div class="BY_NOW">
+                        <h2 class="BY_title">Мы с радостью купим у вас</h2>
+                        <a href="https://wa.me/79231581328?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D0%BC%D0%B5%D0%BD%D1%8F%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0%20%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B8!" class="sale_pc">ХОЧУ ПРОДАТЬ</a>
+                    </div>
+
+                    <div class="places_cards">
+                        <figure class="places_card places_card_size_lg">
+                            <img src="images/PC.jpg" alt="ПК" class="places_card-pic">
+                            <figcaption class="places_card-title">
+                                Компьютеры и Комплектующие
+                            </figcaption>
+                        </figure>
+
+                        <figure class="places_card places_card_size_lg">
+                            <img src="images/LT.jpg" alt="Ноут" class="places_card-pic">
+                            <figcaption class="places_card-title">
+                                Ноутбуки
+                            </figcaption>
+                        </figure>
+
+                        <figure class="places_card places_card_size_sm">
+                            <img src="images/mon.jpg" alt="Монитор" class="places_card-pic">
+                            <figcaption class="places_card-title">
+                                Мониторы
+                            </figcaption>
+                        </figure>
+
+                        <figure class="places_card places_card_size_sm">
+                            <img src="images/tv.png" alt="ТВ" class="places_card-pic ">
+                            <figcaption class="places_card-title">
+                                Телевизоры
+                            </figcaption>
+                        </figure>
+
+                        <figure class="places_card places_card_size_sm">
+                            <img src="images/PS.png" alt="Приставка" class="places_card-pic">
+                            <figcaption class="places_card-title">
+                                Игровые приставки
+                            </figcaption>
+                        </figure>
+
+                    </div>
+                </div>
+                <div class="bloks">
+                    <div class="wrapper">
+                        <div class="bloks_blok ">
+                            <div class="blok_info">
+                                <h3 class="blok_title">
+                                    Хотите продать нам технику?
+                                </h3>
+                                <p class="blok_disk">
+                                    Мы с удовольствием купим вашу технику с выгодой для вас. Просто напишите нам нажав "ПРОДАТЬ СЕЙЧАС" и получите моментальную оценку вашей техники.
+                                </p>
+                                <a href="https://wa.me/79231581328?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D0%BC%D0%B5%D0%BD%D1%8F%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0%20%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B8!" class="prod_sei">ПРОДАТЬ СЕЙЧАС</a>
+                            </div>
+                            <div class="blok_pic  ">
+                                <img src="images/BY.jpg" alt="Продажа" class="blok_min ">
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section >
+                <div class="util">
+                    <div class="util-img">
+                        <div class="wrapper">
+                            <div class="util-text">
+                                <h4 class="util_title">
+                                    Бесплатная утилизация компьютерной техники
+                                </h4>
+                                <p class="util_subt">
+                                    Напишите нам и мы избавим вас от  старого хлама
+                                </p>
+                                <div class="util_nomb">
+                                    <div class="util_card">
+                                        <img src="svg/call.svg" alt="Звонок" class="util_pic">
+                                        <a href="tel:89539267558" class="util_nomber">
+                                        +7(923)923-32-23
+                                        </a>
+                                    </div>
+                                    <button onclick="window.location.href = 'https://wa.me/79231581328?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D0%BC%D0%B5%D0%BD%D1%8F%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B8!';" type="subm"class="whpp2">
+                                        УТИЛИЗИРОВАТЬ ТЕХНИКУ
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>    
+                </div>
+            </section>
+            <section class="BY" id="fixiki">
+                <div class="wrapper">
+                    <div class="BY_NOW">
+                        <h2 class="BY_title">Мы ремонтируем компьютеры</h2>
+                        <a href="https://wa.me/79231581328?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D0%BC%D0%B5%D0%BD%D1%8F%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B8!" class="sale_pc">ХОЧУ РЕМОНТ</a>
+                    </div>
+
+                <div class="places_cards">
+                        <figure class="places_card places_card_size_lg">
+                            <img src="images/Viezd.jpg" alt="выезд" class="places_card-pic">
+                            <figcaption class="places_card-title">
+                                Выезд на дом
+                            </figcaption>
+                        </figure>
+
+                        <figure class="places_card places_card_size_lg">
+                            <img src="images/Diagn.jpg" alt="Диагностика" class="places_card-pic">
+                            <figcaption class="places_card-title">
+                                Вы будете понимать что делают с вашим ПК
+                            </figcaption>
+                        </figure>
+
+                        <figure class="places_card places_card_size_sm">
+                            <img src="images/hdd.png" alt="Жесткий диск" class="places_card-pic">
+                            <figcaption class="places_card-title">
+                                Адекватные цены
+                            </figcaption>
+                        </figure>
+
+                        <figure class="places_card places_card_size_sm">
+                            <img src="images/proc.jpg" alt="Проц" class="places_card-pic ">
+                            <figcaption class="places_card-title">
+                                Все прозрачно
+                            </figcaption>
+                        </figure>
+
+                        <figure class="places_card places_card_size_sm">
+                            <img src="images/cool.png" alt="Куллер" class="places_card-pic">
+                            <figcaption class="places_card-title">
+                                Бесплатная диагностика
+                            </figcaption>
+                        </figure>
+
+                    </div>
+                    <div class="bloks_blok blok">
+                        <div class="blok_info">
+                            <h3 class="blok_title blok_pic_second">
+                                Вашему пк нужен ремонт?
+                            </h3>
+                            <p class="blok_disk">
+                                Мы качественно отремонтируем ваш компьютер. Все прозрачно и без накруток. Вы всегда будете понимать, что и для чего делают с вашим пк.Нажмите ниже для записи на бесплатную диагностику                        </p>
+                            <a href="https://wa.me/79231581328?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D0%BC%D0%B5%D0%BD%D1%8F%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B8!" class="prod_sei">ЗАПИСАТЬСЯ НА ДИАГНОСТИКУ</a>
+                        </div>
+                        <div class="blok_pic">
+                            <img src="images/fix.png" alt="Ремонт" class="blok_min">
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </section>
+                <div class="wrapper">
+                    <div class="map_here">
+                        <div class="blok_pic">
+                            <div id="map" class="map">
+                                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af3b492ece643859496c0585a6a2ddf9ac87b548fb5148386d6e3d3162a4ec7da&amp;width=100%ы&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+                            </div>
+                        </div>
+                        <div class="blok_info">
+                            <h3 class="blok_title_map">
+                                Мы находимся здесь
+                            </h3>
+                            <p class="blok_disk_map">
+                                <strong>Адрес</strong> :<br>
+                                г. Новосибирск, ул. Комбинатская,
+                                д. 1, оф. 308.<br>
+                                <strong>Телефон</strong> :<br>
+                                +7(923)-158-13-28<br>
+                                <strong>Whatsapp</strong> :<br>
+                                <a href="https://wa.me/79231581328?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D0%BC%D0%B5%D0%BD%D1%8F%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0%20%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B8!" class="whppp">+7(923)-158-13-28</a>
+                            </p>
+                        
+                        </div>
+                    </div>   
+                
+                </div>
+        </main>
+        <footer class="footer">
+            <div class="wrapper">
+                <div class="footer_item">
+                    <div class="footer_logo">
+                        <img src="svg/vCom servise.svg" alt="Лого" class="footer_logo-pic">
+                    </div>
+
+                    <div class="footer_phone_number">
+                        <a href="https://wa.me/79231581328?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D0%BC%D0%B5%D0%BD%D1%8F%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0%20%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B8!" class="footer_phone">+7(923)158-13-28</a>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+        <script src="js/main.js"></script>
+    </body>
+</html>
